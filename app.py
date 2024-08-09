@@ -66,4 +66,4 @@ if st.button('Predici Esito'):
         st.write(f"Esito predetto: {esito_predetto}")
     else:
         st.write("Impossibile prevedere l'esito della partita.")
-st.write(f"Versione di scikit-learn installata: {sklearn.__version__}"
+st.write(f"Versione di scikit-learn installata: {sklearn.__version__}")
