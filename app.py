@@ -75,15 +75,16 @@ st.markdown(
 st.write("Benvenuto nell'app di previsione degli esiti degli incontri. Seleziona gli eroi e i rispettivi livelli, "
          "poi inserisci i livelli di attacco per ogni squadra. L'app utilizzerà il modello addestrato per prevedere "
          "l'esito dell'incontro.")
-st.write("Per la forza di squadra, si usa come base già K: "
-         "es forza 5000K --> 5000 "
-         "l'esito dell'incontro.")
-
-# Testo per la forza di squadra con ritorni a capo
-st.text("Per la forza di squadra, si usa come base già K:")
-st.text("es forza 5000K --> 5000")                                                                                       
-st.text("50M --> 50000")                                                                                                 
-st.text("50B --> 50000000")
+# Testo per la forza di squadra con HTML
+st.markdown(
+    """
+    Per la forza di squadra, si usa come base già K:<br>
+    es forza 5000K --> 5000<br>
+    50M --> 50000<br>
+    50B --> 50000000
+    """,
+    unsafe_allow_html=True
+)
 
 # Selezione e livello degli eroi per le posizioni
 inputs = {col: 0 for col in feature_columns}
