@@ -75,6 +75,9 @@ st.markdown(
 st.write("Benvenuto nell'app di previsione degli esiti degli incontri. Seleziona gli eroi e i rispettivi livelli, "
          "poi inserisci i livelli di attacco per ogni squadra. L'app utilizzerà il modello addestrato per prevedere "
          "l'esito dell'incontro.")
+st.write("Per la forza di squadra, si usa come base già K: "
+         "es forza 5000K --> 5000 "
+         "l'esito dell'incontro.")
 
 # Testo per la forza di squadra con ritorni a capo
 st.text("Per la forza di squadra, si usa come base già K:")
