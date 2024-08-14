@@ -78,9 +78,9 @@ st.write("Benvenuto nell'app di previsione degli esiti degli incontri. Seleziona
 
 # Testo per la forza di squadra con ritorni a capo
 st.text(
-    "Per la forza di squadra, si usa come base già K:\n"
-    "es forza 5000K --> 5000\n"
-    "50M --> 50000\n"
+    "Per la forza di squadra, si usa come base già K:                                                               \n"
+    "es forza 5000K --> 5000                                                                                         \n"
+    "50M --> 50000                                                                                                  \n"
     "50B --> 50000000"
 )
 # Selezione e livello degli eroi per le posizioni
