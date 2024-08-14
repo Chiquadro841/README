@@ -76,13 +76,16 @@ st.write("Benvenuto nell'app di previsione degli esiti degli incontri. Seleziona
          "poi inserisci i livelli di attacco per ogni squadra. L'app utilizzerà il modello addestrato per prevedere "
          "l'esito dell'incontro.")
 
-st.write(
-    "Per la forza di squadra, si usa come base già K :\n"
-    "es forza 5000K --> 5000\n"
-    "50M --> 50000\n"
-    "50B --> 50000000"
+st.markdown(
+    """
+    Per la forza di squadra, si usa come base già K:
+    
+    - es forza 5000K --> 5000
+    - 50M --> 50000
+    - 50B --> 50000000
+    """,
+    unsafe_allow_html=True
 )
-
 # Selezione e livello degli eroi per le posizioni
 inputs = {col: 0 for col in feature_columns}
 
