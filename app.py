@@ -77,13 +77,11 @@ st.write("Benvenuto nell'app di previsione degli esiti degli incontri. Seleziona
          "l'esito dell'incontro.")
 
 st.markdown(
-    """
-    Per la forza di squadra, si usa come base già K:
+    "Per la forza di squadra, si usa come base già K:"
     
-    - es forza 5000K --> 5000
-    - 50M --> 50000
-    - 50B --> 50000000
-    """,
+    "- es forza 5000K --> 5000"
+    "- 50M --> 50000"
+    "- 50B --> 50000000",
     unsafe_allow_html=True
 )
 # Selezione e livello degli eroi per le posizioni
