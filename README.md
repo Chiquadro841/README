@@ -1,6 +1,5 @@
- 👋 Hi, I’m @Chiquadro841
-- 👀 I’m interested in data analysis and modelling.
--  Love for statistic tests e ML models.
--  I love developing applications and dashboards for data visualization, crud operations and forecasting.
-- 🧑‍💻 current learning data engineering process and etl
-- 📫 How to reach me https://www.instagram.com/brandondevincentis?utm_source=qr&igsh=MzNlNGNkZWQ4Mg%3D%3D
+Questo è un esempio di dashboard basato su un modello Sarimax per l'indice sp500.
+Il modello utilizza per la previsione dei prezzi (chiusure mensili) due variabili esogene: il tasso di interesse dei fondi federali e l'eps corrente per l'indice (utili per azione).
+La Dashboard creata con Ploty e Dash permette di visualizzare e comparare diversi scenari futuri, in base agli input che forniamo per eps e tassi di interesse.
+Il grafico è interattivo e se vi interessa permette sia lo zoomscroll con il mouse, che la possibilità di comprimere e allargare l'asse y dei prezzi, funzione tipica per grafici finanziari.
+
